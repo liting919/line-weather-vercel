@@ -13,7 +13,6 @@ line_handler = WebhookHandler(os.environ.get("LINE_CHANNEL_SECRET"))
 url =os.environ.get('WEATHER_API')
 ansA=[]
 city=''
-
 @app.route('/')
 def home():
     return 'Hello World from Vercel!'
